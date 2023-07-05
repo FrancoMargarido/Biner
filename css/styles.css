@@ -82,7 +82,7 @@ input {
 
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: #ffffff;
   color: var(--text-color);
   transition: .4s;
 }
@@ -162,5 +162,12 @@ top: 355px;
 
 /* ============================BINERKA==================================== */
 
-
+.nav__logo{
+    text-transform: uppercase;
+    font-weight: var(--font-bold);
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
+}
 
